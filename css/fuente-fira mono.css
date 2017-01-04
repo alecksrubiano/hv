@@ -1,0 +1,10 @@
+@font-face{
+	font-family: 'Fira Mono', monospace;
+	src: url("fonts/FiraMono.eot");
+	src: local('?'),
+		url("fonts/FiraMono.otf") format("opentype"), 
+		url("fonts/FiraMono.ttf") format("truetype"),
+		url("fonts/FiraMono.woff") format("woff");
+}
+
+
