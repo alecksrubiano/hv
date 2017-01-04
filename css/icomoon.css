@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-Hexagono:before {
+  content: "\eaeb";
+}
 .icon-home:before {
   content: "\e900";
 }

@@ -84,7 +84,7 @@ header nav #card_menu{
 	border-right: 3px solid #AFAEAE;
 	display: block;
 	z-index: 999;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 
 header nav #card_menu #logo_menu{
@@ -237,9 +237,7 @@ header nav #card_menu ul li a{
 	margin-left: 10%;
 }
 #slider #home{
-	/*background: purple;*/
 	font-family: "aller";
-	/*height: 85vh;*/
 	position: relative;
 	text-align: center;
 	padding-bottom: 50px;
@@ -247,19 +245,17 @@ header nav #card_menu ul li a{
 #slider #home .mainlogo{
 	width: 60vw;
 	margin-left: 20vw;
-	/*max-width: 270px;*/
-	/*background: white;*/
-	min-height: 430px;
+	height: 350px;
 	position: relative;
 	background: rgba(35,61,88,0.8);
 	background: none;
-	/* #233D58; */
+
 }
 #slider #home .mainlogo h2{
 	text-align: center;
 	font-size: 1.2em;
 	position: relative;
-	padding-top: 80px;
+	padding-top: 50px;
 	color: white;
 	font-weight: lighter;
 }
@@ -289,7 +285,7 @@ header nav #card_menu ul li a{
 }
 #slider #home .buttonspage > *{
 	display: inline-block;
-	width: 40%;
+	width: 45%;
 	margin: 5px 2.5%;
 	padding: 15px 2.5%;
 	color: white;
@@ -496,7 +492,6 @@ header nav #card_menu ul li a{
 #slider #skills .skill .rest{
 	background: #D4D2D2;
 }
-
 #slider #skills .skill .hexagono{
 	position: absolute;
 	margin-left: -60px;
@@ -539,7 +534,7 @@ header nav #card_menu ul li a{
 	font-family: 'icomoon';
 	content: "\e942";
 	color: #29abe2;
-	font-size: 3em;
+	font-size: 2em;
 	position: absolute;
 	top: -13px;
 	left: -30px;
@@ -849,16 +844,21 @@ footer p{
 		width: 270px;
 		left: 50%;
 		margin-left: -135px;
+		background: none;
 	}
 	#slider #home .mainlogo h2{
 		font-size: 1.4em;
+		top: -20px;
 	}
 	#slider #home .mainlogo figure{
 		width: 80%;
 		margin-left: 10%;
+		top: -20px;
 	}
 	#slider #home .buttonspage > *{
+		position: relative;
 		width: 200px;
+		top:60px;
 	}
 	#slider #aboutme .top_am figure{
 		height: 183px;
@@ -1082,6 +1082,7 @@ footer p{
 	}
 	#slider #skills #conocimientos ul{
 		margin-top: 30px;
+		width: 200px;
 	}
 	#slider #skills #conocimientos ul li{
 		width: 80%;
